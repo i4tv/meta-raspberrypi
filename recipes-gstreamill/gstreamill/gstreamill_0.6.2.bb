@@ -10,7 +10,7 @@ DEPENDS += "gstreamer1.0 gstreamer1.0-plugins-base augeas"
 
 COMPATIBLE_MACHINE = "raspberrypi"
 
-SRCREV = "bc52bb57a51624565cd5de2148c70883f0a3e286"
+SRCREV = "b460ef75e57db9d5e7a6ab4ab7eefa463f09699e"
 SRC_URI = "git://github.com/i4tv/gstreamill.git;protocol=http;branch=master"
 S = "${WORKDIR}/git"
 
